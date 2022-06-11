@@ -11,6 +11,7 @@ The robot will execute the following tasks:
 * Log the position and status if collected successfully or not
 The robot might have a system to charge the batteries of the hover board using solar power.
 
+![The robot architecture](idea_.png)
 # History:
 Sometimes, when I go jogging in the woods, I notice that there is some trash (bottles, paper, glass ...) thrown in the forest. And sometime I wanted to collect all that trash, but why not build a robot that can do that automatically. The idea is to have a robot built mostly from reused materials, such as, hoverboard, plastic or wood box, metal pieces for the robotic arm, web camera. The robot will used image recognition to detect the presence of trash in the woods, then move toward it, collect it using the robotic arm and throw it into the box. So the trash will be collected by the robot while I’m doing my favorite sport.
 
