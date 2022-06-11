@@ -1,6 +1,7 @@
 # Akerfabot
 A DIY robot that helps collect the trash in the woods. Image recognition will be uses to detect trash and collect it using a robotic arm.
 
+Link to the hackaday project page: [Akerfabot](https://hackaday.io/project/184940-akerfabot)
 # Description
 AkerfaBot is a robot that will help collect trash thrown in the woods and beaches. The idea is to have a robot made from reusable materials, such as, hover board, box, and robotic arm, controlled with a processing unit (an NVIDIA Jetson nano) in order to collect the trash.
 The robot will take as an input a stream of images, and will have as an output a command to move toward the trash, collect it using the robotic arm and put it in the box.
