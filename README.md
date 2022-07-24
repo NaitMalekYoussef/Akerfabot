@@ -41,8 +41,8 @@ Second problem that the robot might encounter is regarding the sense of dept. Af
 The third problem is related to the autonomy of the robot. For instance all the component of the robot will run from the hoverboard battery. However, a solar panel might be added in order to charge the battery when needed.
 
 # Built process:
-1. Train a model for trash recognition
+1. [Train a model for trash recognition](./trash_identification/)
 2. [control the hoverboard motors using the NVIDIA Jetson Nano](./hoverboard_control/)
-3. built the robotic arm
+3. [built the robotic arm](./robotic_arm/)
 4. Assemble everything
 5. test and improvement
