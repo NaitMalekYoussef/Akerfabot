@@ -25,6 +25,8 @@ Log the position and the status of the task (success or failed)
 ### Fist task: trash identification:
 The robot will use image recognition in order to identify the existence of any king of trash in the woods/beach. A model will be trained upon various images of mostly all kind of trash. The model will be then used to identify the objects in a stream of images coming from a camera attached to the robot. The used camera could be a USB webcam or a Raspberry camera. For the processing unit, a NVIDIA Jetson Nano development board will be used.
 
+
+
 ### Second task: trash collection:
 After identifying the trash location, the robot will move to the position and collect the trash using the robotic arm.
 
@@ -40,7 +42,7 @@ The third problem is related to the autonomy of the robot. For instance all the 
 
 # Built process:
 1. Train a model for trash recognition
-2. control the hoverboard motors using the NVIDIA Jetson Nano
+2. [control the hoverboard motors using the NVIDIA Jetson Nano](./hoverboard_control/)
 3. built the robotic arm
 4. Assemble everything
 5. test and improvement
