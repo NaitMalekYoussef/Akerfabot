@@ -22,7 +22,7 @@ To determine the baud rate used by the board to communicate over UART, I used a 
 
 The  lenght of a puls is 129 us, which mean that the baud rate is: 7752 bps
 `(1/129)*10^6=7751.937` 
-For the packet we get a pathern that repeats during the communication process. when powering the hoverboard, the communication starts with the frame 0xFF. Then, after severla micro-seconds, we recieve a hex number between 0x04 and 0xFF.
+For the packet we get a pathern that repeats during the communication process. when powering the hoverboard, the communication starts with the frame 0xFF (looks weird to me). Then, after severla micro-seconds, we recieve a hex number between 0x04 and 0xFF.
 ![start_frame](./images/start_bit.png) 
 ![bit_format](./images/bit_format.png)
 ## Test:
