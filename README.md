@@ -1,4 +1,5 @@
 # Akerfabot
+![License](https://img.shields.io/badge/License-MIT-green)
 A DIY robot that helps collect the trash in the woods. Image recognition will be uses to detect trash and collect it using a robotic arm.
 
 Link to the hackaday project page: [Akerfabot](https://hackaday.io/project/184940-akerfabot)
@@ -46,3 +47,6 @@ The third problem is related to the autonomy of the robot. For instance all the 
 3. [built the robotic arm](./robotic_arm/)
 4. Assemble everything
 5. test and improvement
+
+# License
+Akerfabot is under the [MIT License](LICENSE).
