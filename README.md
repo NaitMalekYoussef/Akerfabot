@@ -1,5 +1,6 @@
 # Akerfabot
 ![License](https://img.shields.io/badge/License-MIT-green)
+
 A DIY robot that helps collect the trash in the woods. Image recognition will be uses to detect trash and collect it using a robotic arm.
 
 Link to the hackaday project page: [Akerfabot](https://hackaday.io/project/184940-akerfabot)
